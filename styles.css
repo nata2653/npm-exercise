@@ -1,0 +1,57 @@
+main {
+  font-family: "Open Sans", sans-serif;
+}
+
+#container {
+  display: grid;
+  justify-content: center;
+}
+
+form {
+  display: grid;
+  box-shadow: 10px 10px 20px grey;
+  width: 40vw;
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button {
+  background: rgb(175, 235, 175);
+  margin-top: 20px;
+}
+
+.delete {
+  background: rgb(231, 124, 124);
+  margin-bottom: 10px;
+}
+
+#app {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+article {
+  margin: 10px;
+  padding: 10px;
+  background: rgb(224, 223, 223);
+  border-radius: 10px;
+}
+
+article:nth-child(odd) {
+  background: whitesmoke;
+}
+
+article h1,
+h2 {
+  text-align: center;
+}
+
+h2 {
+  padding-bottom: 10px;
+}
+
+.info {
+  line-height: 2;
+}

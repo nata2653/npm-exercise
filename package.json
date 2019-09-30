@@ -1,0 +1,17 @@
+{
+  "name": "npm-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify-js": "minify script.js > dist/index.min.js",
+    "minify-html": "minify index.html > dist/index.html",
+    "minify-css": "minify styles.css > main.min.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "minify": "^4.1.3"
+  }
+}
